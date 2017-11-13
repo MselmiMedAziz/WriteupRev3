@@ -1,0 +1,27 @@
+<html>
+<body>
+
+
+<script language="javascript">
+do{       function makeid() {
+  var text = "";
+  var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
+  for (var i = 0; i < 14; i++)
+    text += possible.charAt(Math.floor(Math.random() * possible.length));
+  return text;
+}
+		var ch=makeid();
+var som=0;
+for (var j=0;j<14;j++){
+var x=ch.charCodeAt(j);
+som=som+x;
+}
+}
+while(som!=1007);
+alert(ch);
+alert(som);
+</script>
+
+</body>
+</html>
