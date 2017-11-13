@@ -1,4 +1,4 @@
-# WriteuRev3
+# WriteupRev3
 keygen write-up for task reverse rev3 :
 
 
